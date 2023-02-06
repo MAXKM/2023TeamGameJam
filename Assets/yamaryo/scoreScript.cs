@@ -34,13 +34,13 @@ public class scoreScript : MonoBehaviour
             scoretext.text = string.Format("score:{0}", score);
         }
 
-        if (collision.gameObject.tag == "50")
+        if (collision.gameObject.tag == "Targer50")
         {
             score += 50;
             scoretext.text = string.Format("score:{0}", score);
         }
 
-        if (collision.gameObject.tag == "100")
+        if (collision.gameObject.tag == "Targer100")
         {
             score += 100;
             scoretext.text = string.Format("score:{0}", score);
