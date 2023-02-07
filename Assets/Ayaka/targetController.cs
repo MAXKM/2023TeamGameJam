@@ -25,19 +25,21 @@ public class targetController : MonoBehaviour
             transform.Translate(-0.1f, 0, 0);
         }
 
-        
         //画面外に出たら的は消滅
-        if (transform.position.x > 20)
+        if (transform.position.x > 10)
         {
             Destroy(gameObject);
         }
 
-        /*
-        //当たったら的消失
-        void OnCollisionEnter(Collider other)
-        {
-            Destroy(gameObject);
-        }
-        */
+        
+        
+       
+    }
+    //当たったら的消失
+    void OnCollisionEnter(Collider collision)
+    {
+
+        Debug.Log("当たりました");
+        Destroy(collision.gameObject);
     }
 }
