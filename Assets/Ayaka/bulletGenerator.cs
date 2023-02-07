@@ -18,7 +18,10 @@ public class bulletGenerator : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject bullet = Instantiate(BulletPrefab);
-            bullet.GetComponent<bulletController>().Shoot(new Vector3(0, 200, 2000));
+           
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Vector3 worldDir = ray.direction;
+            bullet.GetComponent<bulletController>().Shoot(worldDir.normalized * 2000);
         }
     }
 }

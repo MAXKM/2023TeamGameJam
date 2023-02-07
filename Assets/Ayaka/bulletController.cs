@@ -26,13 +26,13 @@ public class bulletController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        */
+        
 
         //‰æ–ÊŠO‚Éo‚½‚ç“I‚ÍÁ–Å
         if (transform.position.y > -50)
         {
             Destroy(gameObject);
         }
-        
+        */
     }
 }
