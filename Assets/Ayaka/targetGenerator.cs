@@ -6,6 +6,9 @@ public class targetGenerator : MonoBehaviour
 {
     public GameObject Target100Prefab;
     public GameObject Target50Prefab;
+    public GameObject Target30Prefab;
+    public GameObject Target10Prefab;
+
     float span100 = 3.0f;
     float span50 = 1.0f;
     float delta = 0.0f;
@@ -21,6 +24,7 @@ public class targetGenerator : MonoBehaviour
     {
         this.delta += Time.deltaTime;
 
+        
         //100ポイントの的生成
         if (this.delta > this.span100)
         {
@@ -32,7 +36,10 @@ public class targetGenerator : MonoBehaviour
         if (this.delta > this.span50)
         {
             GameObject go = Instantiate(Target100Prefab);
-            go.transform.position = new Vector3(-10, 0, 3);
+            go.transform.position = new Vector3(-10.0f, 0.0f, 3.0f);
         }
+        this.delta = 0.0f;
+
+
     }
 }

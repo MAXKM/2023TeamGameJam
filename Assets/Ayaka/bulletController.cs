@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class bulletController : MonoBehaviour
 {
-    /*
     public void Shoot(Vector3 power)
     {
-        GetComponent<Rigitbody>().AddForce(power);
+        GetComponent<Rigidbody>().AddForce(power);
     }
     
 
@@ -15,17 +14,25 @@ public class bulletController : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 60;
-        Shoot(new Vector3(0, 200, 2000));
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        /*
         //当たったら的消失
         void OnCollisionEnter(Collider other)
         {
             Destroy(gameObject);
         }
+        */
+
+        //画面外に出たら的は消滅
+        if (transform.position.y > -50)
+        {
+            Destroy(gameObject);
+        }
+        
     }
-    */
 }

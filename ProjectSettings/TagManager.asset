@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Targer100
   - Targer50
+  - Target30
+  - Target10
   layers:
   - Default
   - TransparentFX

@@ -30,5 +30,11 @@ public class targetController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        //ìñÇΩÇ¡ÇΩÇÁìIè¡é∏
+        void OnCollisionEnter(Collider other)
+        {
+            Destroy(gameObject);
+        }
     }
 }
