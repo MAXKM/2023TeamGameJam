@@ -114,7 +114,7 @@ public class gameScript2 : MonoBehaviour
                 stop_button.SetActive(false);
                 timetext.SetActive(true);
 
-                if (randomtimeScript.randomtime - time <= 1f)
+                if (randomtimeScript.randomtime - time >= -1f && randomtimeScript.randomtime - time <= 1f)
                 {
                     normal.SetActive(false);
                     good.SetActive(true);
@@ -123,7 +123,7 @@ public class gameScript2 : MonoBehaviour
 
                 }
 
-                else if (randomtimeScript.randomtime - time <= 2f)
+                else if (randomtimeScript.randomtime - time >= -2f && randomtimeScript.randomtime - time <= 2f)
                 {
                     normal.SetActive(false);
                     good.SetActive(false);
@@ -131,7 +131,7 @@ public class gameScript2 : MonoBehaviour
                     soso.SetActive(true);
                 }
 
-                else 
+                else if(randomtimeScript.randomtime - time < -2f)
                 {
                     normal.SetActive(false);
                     good.SetActive(false);
