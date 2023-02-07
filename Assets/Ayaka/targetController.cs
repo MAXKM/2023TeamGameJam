@@ -29,17 +29,6 @@ public class targetController : MonoBehaviour
         if (transform.position.x > 10)
         {
             Destroy(gameObject);
-        }
-
-        
-        
-       
-    }
-    //ìñÇΩÇ¡ÇΩÇÁìIè¡é∏
-    void OnCollisionEnter(Collider collision)
-    {
-
-        Debug.Log("ìñÇΩÇËÇ‹ÇµÇΩ");
-        Destroy(collision.gameObject);
+        }     
     }
 }
