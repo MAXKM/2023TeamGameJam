@@ -20,7 +20,7 @@ public class bulletController : MonoBehaviour
     void Update()
     {
         //‰æ–ÊŠO‚Éo‚½‚ç‹…‚ÍÁ–Å
-        if (transform.position.y < -50)
+        if (transform.position.y < -20)
         {
             Destroy(gameObject);
         }
