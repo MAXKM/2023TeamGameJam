@@ -25,4 +25,11 @@ public class bulletController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    //ìñÇΩÇ¡ÇΩÇÁìIè¡ñ≈
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name + " ìñÇΩÇËÇ‹ÇµÇΩ");
+        Destroy(collision.gameObject);
+    }
 }
