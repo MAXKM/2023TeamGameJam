@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gameScript : MonoBehaviour
+public class gameScript1 : MonoBehaviour
 {
     public GameObject startpanel;
     public GameObject stop_button;
@@ -37,19 +37,19 @@ public class gameScript : MonoBehaviour
                 startpanel.SetActive(true);
                 stop_button.SetActive(false);
 
-                if (startbutton.GetComponent<startbuttonScript>().b_start == true)
+                if (startbutton.GetComponent<startbuttonScript1>().b_start == true)
                 {
                     currentScene = SceneState.GamePlay;
                 }
 
                 break;
 
-           case SceneState.GamePlay:
+            case SceneState.GamePlay:
                 //ÉQÅ[ÉÄÉvÉåÉCâÊñ ÇÃèàóù
                 startpanel.SetActive(false);
                 stop_button.SetActive(true);
 
-                if (stopbutton.GetComponent<stopbuttonScript>().b_stop == true)
+                if (stopbutton.GetComponent<stopbuttonScript1>().b_stop == true)
                 {
                     currentScene = SceneState.Result;
                 }
