@@ -10,13 +10,17 @@ public class gameScript2 : MonoBehaviour
     public GameObject stop_button;
     public GameObject timetext;
 
+    public GameObject good;
+    public GameObject bad;
+    public GameObject soso;
+    public GameObject normal;
 
     public GameObject startbutton;
     public GameObject stopbutton;
 
     public bool mvtime;
 
-    private  float time;
+    public  float time;
 
     public randomtimeScript randomtime;
 
@@ -59,6 +63,12 @@ public class gameScript2 : MonoBehaviour
                 stop_button.SetActive(false);
                 timetext.SetActive(false);
 
+                normal.SetActive(false);
+                good.SetActive(false);
+                bad.SetActive(false);
+                soso.SetActive(false);
+
+
                 if (startbutton.GetComponent<startbuttonScript2>().b_start == true)
                 {
                     currentScene = SceneState.GamePlay;
@@ -70,6 +80,12 @@ public class gameScript2 : MonoBehaviour
                 //ÉQÅ[ÉÄÉvÉåÉCâÊñ ÇÃèàóù
                 startpanel.SetActive(false);
                 stop_button.SetActive(true);
+
+                normal.SetActive(true);
+                good.SetActive(false);
+                bad.SetActive(false);
+                soso.SetActive(false);
+
 
                 time += Time.deltaTime;
 
@@ -98,6 +114,32 @@ public class gameScript2 : MonoBehaviour
                 stop_button.SetActive(false);
                 timetext.SetActive(true);
 
+                if (randomtimeScript.randomtime - time <= 1f)
+                {
+                    normal.SetActive(false);
+                    good.SetActive(true);
+                    bad.SetActive(false);
+                    soso.SetActive(false);
+
+                }
+
+                else if (randomtimeScript.randomtime - time <= 2f)
+                {
+                    normal.SetActive(false);
+                    good.SetActive(false);
+                    bad.SetActive(false);
+                    soso.SetActive(true);
+                }
+
+                else 
+                {
+                    normal.SetActive(false);
+                    good.SetActive(false);
+                    bad.SetActive(true);
+                    soso.SetActive(false);
+                }
+
+                
 
 
 
