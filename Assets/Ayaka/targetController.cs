@@ -26,7 +26,13 @@ public class targetController : MonoBehaviour
         }
 
         //画面外に出たら的は消滅
-        if (transform.position.x > 100)
+        if (transform.position.x > 20)
+        {
+            Destroy(gameObject);
+        }
+
+        //当たったら的消失
+        void OnCollisionEnter(Collider other)
         {
             Destroy(gameObject);
         }
