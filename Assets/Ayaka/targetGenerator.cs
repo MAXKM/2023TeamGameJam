@@ -24,7 +24,7 @@ public class targetGenerator : MonoBehaviour
         if (this.delta > this.span100)
         {
             GameObject item = Instantiate(Target100Prefab);
-            item.transform.position = new Vector3(-9.5f, 0.0f, -1.57f);
+            item.transform.position = new Vector3(-12.5f, 0.0f, 0.9f);
 
             this.delta = 0.0f;
         }
