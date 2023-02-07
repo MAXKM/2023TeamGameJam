@@ -9,6 +9,7 @@ public class gameScript2 : MonoBehaviour
     public GameObject startpanel;
     public GameObject stop_button;
     public GameObject timetext;
+    public GameObject resetbutton;
 
     public GameObject good;
     public GameObject bad;
@@ -63,10 +64,14 @@ public class gameScript2 : MonoBehaviour
                 stop_button.SetActive(false);
                 timetext.SetActive(false);
 
+                resetbutton.SetActive(false);
+
+                /*
                 normal.SetActive(false);
                 good.SetActive(false);
                 bad.SetActive(false);
                 soso.SetActive(false);
+                */
 
 
                 if (startbutton.GetComponent<startbuttonScript2>().b_start == true)
@@ -81,10 +86,14 @@ public class gameScript2 : MonoBehaviour
                 startpanel.SetActive(false);
                 stop_button.SetActive(true);
 
+                resetbutton.SetActive(false);
+
+                /*
                 normal.SetActive(true);
                 good.SetActive(false);
                 bad.SetActive(false);
                 soso.SetActive(false);
+                */
 
 
                 time += Time.deltaTime;
@@ -114,6 +123,9 @@ public class gameScript2 : MonoBehaviour
                 stop_button.SetActive(false);
                 timetext.SetActive(true);
 
+                resetbutton.SetActive(true);
+
+                /*
                 if (randomtimeScript.randomtime - time >= -1f && randomtimeScript.randomtime - time <= 1f)
                 {
                     normal.SetActive(false);
@@ -138,6 +150,8 @@ public class gameScript2 : MonoBehaviour
                     bad.SetActive(true);
                     soso.SetActive(false);
                 }
+                */
+
 
                 
 
