@@ -26,7 +26,7 @@ public class targetController : MonoBehaviour
         }
 
         //‰æ–ÊŠO‚Éo‚½‚ç“I‚ÍÁ–Å
-        if (transform.position.x > 10)
+        if (transform.position.x < 0)
         {
             Destroy(gameObject);
         }     
