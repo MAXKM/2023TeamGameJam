@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 1767076510327528714}
   m_Layer: 0
   m_Name: 50Prefab
-  m_TagString: Targer50
+  m_TagString: 50
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
