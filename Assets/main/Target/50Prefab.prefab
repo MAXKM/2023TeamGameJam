@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4731257323161141925}
   - component: {fileID: 7371330729099966063}
   - component: {fileID: 1724239667176061160}
+  - component: {fileID: 1767076510327528714}
   m_Layer: 0
   m_Name: 50Prefab
   m_TagString: Targer50
@@ -180,3 +181,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2729e9e2099fb494cb2f778746ffff92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1767076510327528714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028809391469696954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000001, y: 0.020000001, z: 0.019999998}
+  m_Center: {x: 0, y: 0, z: 0}
