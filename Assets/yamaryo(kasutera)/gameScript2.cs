@@ -11,10 +11,10 @@ public class gameScript2 : MonoBehaviour
     public GameObject timetext;
     public GameObject resetbutton;
 
-    public GameObject good;
+    /*public GameObject good;
     public GameObject bad;
     public GameObject soso;
-    public GameObject normal;
+    public GameObject normal;*/
 
     public GameObject startbutton;
     public GameObject stopbutton;
