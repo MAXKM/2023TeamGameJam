@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/main/Target/syateki.unity
     guid: 99e6bf1a961dd7740871804dea3625b9
   - enabled: 1
+    path: Assets/main/Target/ResultScene.unity
+    guid: eacc0e817a27d704fbbeaa8acbaac709
+  - enabled: 0
     path: Assets/main/Castella/Castella.unity
     guid: d1a256d9d6822a147b3407494acb2930
   m_configObjects: {}

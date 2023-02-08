@@ -11,7 +11,7 @@ public class resultScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        score = scoreScript.getscore();
+        score = PointDirector.getscore();
         ScoreText.text = string.Format("score:{0}", score);
     }
 
