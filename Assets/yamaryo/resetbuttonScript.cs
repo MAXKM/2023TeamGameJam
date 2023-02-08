@@ -7,8 +7,8 @@ public class resetbuttonScript : MonoBehaviour
 {
     public void OnClicked()
     {
-        int backScene = SceneManager.GetActiveScene().buildIndex - 1;
-        SceneManager.LoadScene(backScene);
+        
+        SceneManager.LoadScene("SelectScene");
     }
     // Start is called before the first frame update
     void Start()
