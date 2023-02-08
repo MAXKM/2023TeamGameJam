@@ -14,13 +14,13 @@ public class targetController : MonoBehaviour
     void Update()
     {
         //50ポイントの的
-        if (gameObject.tag == "Targer50")
+        if (gameObject.tag == "50")
         {
             transform.Translate(-0.05f, 0, 0);
         }
 
         //100ポイントの的
-        if (gameObject.tag == "Targer100")
+        if (gameObject.tag == "100")
         {
             transform.Translate(-0.1f, 0, 0);
         }
