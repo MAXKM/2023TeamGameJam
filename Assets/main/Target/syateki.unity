@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58442883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.98050034, y: 1.5125109, z: -1.2965506}
+  m_LocalPosition: {x: 4.01, y: 3.368, z: -7.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b1546c260cce8409f85fbb4f9bbfdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpherePrefab: {fileID: 9036711306459059649, guid: 85c9d4c56e0cdb548a87fe6a2693dfa7, type: 3}
+  SpherePrefab: {fileID: 8809372709255422100, guid: fe9069c7e9adb1c4885afdfd79dc4eec, type: 3}
 --- !u!1001 &164976679
 PrefabInstance:
   m_ObjectHideFlags: 0

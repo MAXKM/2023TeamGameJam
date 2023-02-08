@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3933940379641561716}
   - component: {fileID: 4863804498795771441}
   m_Layer: 0
-  m_Name: corkPrefab
+  m_Name: corkPrefab1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8809372709255422100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.153, y: 0.689, z: -9.212}
+  m_LocalPosition: {x: 4.01, y: 3.368, z: -7.5}
   m_LocalScale: {x: 6.5543256, y: 6.5543256, z: 6.5543256}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -20,7 +20,7 @@ public class bulletGenerator1 : MonoBehaviour
 
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worlddir = ray.direction;
-            bullet.GetComponent<bulletController>().Shoot(worlddir.normalized * 1500);
+            bullet.GetComponent<bulletController>().Shoot(worlddir.normalized * 700);
         }       
     }
 }
