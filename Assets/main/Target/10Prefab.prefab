@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 348512784554397060}
   - component: {fileID: 2536333417417341262}
   - component: {fileID: 8181242491476182727}
+  - component: {fileID: 1038308866967173993}
   m_Layer: 0
   m_Name: 10Prefab
   m_TagString: Untagged
@@ -97,6 +98,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2729e9e2099fb494cb2f778746ffff92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1038308866967173993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4049336115687282843}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.019999998}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4068689536399627453
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5090517799492646283}
   - component: {fileID: 7008113109736816961}
   - component: {fileID: 8538899795982917190}
-  - component: {fileID: 8538899795982917185}
   - component: {fileID: 3933940379641561716}
+  - component: {fileID: 4863804498795771441}
   m_Layer: 0
   m_Name: corkPrefab
   m_TagString: Untagged
@@ -102,18 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8538899795982917185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8809372709255422100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d42c0b86ec4fd6547811c7569813158f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &3933940379641561716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -127,3 +115,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03, y: 0.03, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0.0000000023283062}
+--- !u!114 &4863804498795771441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809372709255422100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f331da1b8c6dc84eae4285fbcaa2349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
